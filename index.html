@@ -111,37 +111,44 @@
     <!-- Hero section: Speak directly to the visitor -->
     <section class="hero">
       <h2>You’re here for a reason</h2>
-      <p>If you’ve landed on this page, chances are you received a letter from me, Cam Burns. I reach out to a very small number of business owners who’ve built something special — companies with real foundations, strong values and a future worth protecting.</p>
+      <p>If you’ve landed on this page, chances are you received a letter from me, Cameron Burns. I reach out to a very small number of business owners who’ve built something special - companies with real foundations, strong values and a future worth protecting.</p>
       <p>You’ve likely been thinking about what comes next: succession, stepping back or simply exploring options. That’s why you’re here, and why I’m keen to talk.</p>
-      <a href="#schedule" class="cta-button">Schedule a 15‑minute call</a>
+      <a class="cta-button"
+   href="https://calendar.app.google/yY9yWPhh1PnYjtVJ9"
+   target="_blank"
+   rel="noopener">
+  Schedule a 15-minute call
+</a>
+
     </section>
 
     <!-- Personal credibility section: briefly introduce Cam -->
     <section class="section">
-      <h2>Who is Cam Burns?</h2>
-      <p>I’m the founder of CB FAM AFFAIRS. I’m based in Sydney, father to a young daughter and passionate about building and supporting businesses that matter. My role in any acquisition is to preserve what’s working, invest in growth and ensure a smooth transition — not to rip things apart.</p>
+      <h2>Who is Cameron Burns?</h2>
+      <p>I’m the founder of CB FAM AFFAIRS. I’m based in North Sydney, father to a young daughter and passionate about building and supporting businesses that matter. My role in any acquisition is to preserve what’s working, invest in growth and ensure a smooth transition - not to rip things apart.</p>
       <p>With a background in business acquisition and a small team of advisers, I structure deals that are sensible and fair. We’re not brokers; we buy businesses and stay involved at a strategic level to help them thrive long term.</p>
     </section>
 
-    <!-- Form section: capture visitor details -->
+     <!-- Form (connected to Formspree) -->
     <section class="section" id="contact">
       <h2>Let’s talk about you</h2>
       <p>Please share a few details below. I value your time and privacy; I’ll review your information and get back to you promptly.</p>
-      <form method="post" action="#">
+
+      <form method="POST" action="https://formspree.io/f/xvgwbvoz">
         <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required>
-        
+        <input type="text" id="name" name="Full Name" required>
+
         <label for="company">Company Name</label>
-        <input type="text" id="company" name="company" required>
+        <input type="text" id="company" name="Company Name" required>
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="Email" required>
 
         <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" name="phone" required>
+        <input type="tel" id="phone" name="Phone Number" required>
 
         <label for="message">Anything you’d like to share?</label>
-        <textarea id="message" name="message" rows="4" placeholder="Tell me about your business and what’s on your mind…"></textarea>
+        <textarea id="message" name="Message" rows="4" placeholder="Tell me about your business and what’s on your mind…"></textarea>
 
         <button type="submit">Send Details</button>
       </form>
@@ -149,13 +156,17 @@
 
     <!-- Schedule section: embed Calendly or similar scheduling tool -->
     <section class="section" id="schedule">
-      <h2>Ready to book a call?</h2>
-      <p>Click below to pick a time that suits you. I keep my calendar tight to manage my commitments, so if you don’t see a slot that works, just reach out via the form above and we’ll find a time.</p>
-      <!-- Calendly embed - replace YOUR-CALENDLY-LINK with your actual Calendly scheduling link -->
-      <div style="position:relative;padding-top:56.25%;height:0;overflow:hidden;margin-top:1em;margin-bottom:1em;border-radius:8px;">
-        <iframe src="https://calendly.com/YOUR-CALENDLY-LINK?hide_event_type_details=1&background_color=f9f9f9&text_color=333333" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </section>
+  <h2>Ready to book a call?</h2>
+  <p>Pick a time that suits you. If you don’t see a slot that works, use the form above and I’ll reach out personally.</p>
+
+  <a class="cta-button"
+     href="https://calendar.app.google/yY9yWPhh1PnYjtVJ9"
+     target="_blank"
+     rel="noopener">
+    Book via Google Calendar
+  </a>
+</section>
+
 
   </main>
   
